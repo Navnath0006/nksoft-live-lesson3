@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #2563eb;
+    /* --primary-color: green; */
     --secondary-color: #60a5fa;
     --dark-gray: #64748b;
     --off-white: #f1f5f9;
@@ -14,7 +15,14 @@ body {
 
 hr {
     margin: 2rem 0rem;
+    color: var(--primary-color);
 }
+
+/**spaces**/
+.margin-md {
+    padding-top: 0.5rem;
+}
+
 
 /**Container**/
 
@@ -33,6 +41,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+
 }
 
 .link-primary {
@@ -91,6 +100,7 @@ hr {
 
 .hero {
     padding: 2.5rem;
+    padding-top: 3rem;
 }
 
 .hero .hero-img {
@@ -98,6 +108,14 @@ hr {
     display: block;
     margin: auto;
 }
+
+.hero .hero-img-other {
+    max-width: 150px;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+}
+
 
 .hero .hero-heading {
     text-align: center;
@@ -117,6 +135,10 @@ hr {
 .section h1 {
     text-align: center;
 
+}
+
+.section p {
+    text-align: center;
 }
 
 .ow {
@@ -139,4 +161,5 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+    list-style-type: disc;
 }
