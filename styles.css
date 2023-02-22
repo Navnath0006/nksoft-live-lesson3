@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -39,6 +40,7 @@ hr {
     text-decoration: none;
     border-radius: 0.5rem;
     color: white;
+
 }
 
 .link-secondary {
@@ -62,7 +64,7 @@ hr {
 
 /** Navigation **/
 .navigation {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -98,7 +100,7 @@ hr {
 }
 
 .hero .hero-heading {
-
+    text-align: center;
     color: var(--dark-gray);
 }
 
@@ -114,6 +116,7 @@ hr {
 
 .section h1 {
     text-align: center;
+
 }
 
 .ow {
