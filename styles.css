@@ -130,7 +130,7 @@ hr {
 }
 
 .hero .hero-heading .heading-invert {
-    color: var(--primary-color);
+   color: var(--headcolor);
 }
 
 /** section **/
