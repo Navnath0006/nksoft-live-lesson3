@@ -96,7 +96,7 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color: var(--headcolor);
 }
 
 .navigation .link-active {
